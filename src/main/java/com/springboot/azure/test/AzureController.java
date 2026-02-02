@@ -1,4 +1,4 @@
-package com.springboot.azure.Controller;
+package com.springboot.azure.test;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,9 +14,10 @@ public class AzureController {
     public Map<String, String> sayHello() {
         Map<String, String> response = new HashMap<>();
         response.put("status", "UP");
-        response.put("message", "The backend is running!");
+        response.put("message", "The backend is running without Azure!");
         return response;
     }
+
 
 
 }

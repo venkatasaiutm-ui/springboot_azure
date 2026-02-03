@@ -14,7 +14,7 @@ public class AzureController {
     public Map<String, String> sayHello() {
         Map<String, String> response = new HashMap<>();
         response.put("status", "UP");
-        response.put("message", "The backend is running without Azure!");
+        response.put("message", "The backend is running !");
         return response;
     }
 

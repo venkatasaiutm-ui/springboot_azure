@@ -49,5 +49,6 @@ jobs:
         with:
           app-name: 'Springboot-azure-sample'
           slot-name: 'Production'
-          package: '*.jar'   # <-- picks up the uploaded artifact automatically
+          package: 'azure-0.0.1-SNAPSHOT.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9694B890E34446C4BE1B1B21A8A1E1CC }}
+

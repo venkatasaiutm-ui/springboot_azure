@@ -14,6 +14,10 @@ java {
 	}
 }
 
+tasks.named("bootJar") {
+	enabled = true
+}
+
 repositories {
 	mavenCentral()
 }
